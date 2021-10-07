@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>kos</name>
+    <description lang="en">The interpreter for the Kos Programming Language.</description>
+    <homepage>https://github.com/kos-lang/kos</homepage>
+    <owner>
+		<email>chris@chris.dragan.name</email>
+		<name>Chris Dragan</name>
+    </owner>
+    <source type="git">https://github.com/kos-lang/gentoo-overlay.git</source>
+  </repo>
+</repositories>
