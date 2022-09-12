@@ -1,4 +1,4 @@
-# Copyright (c) 2021 Chris Dragan
+# Copyright (c) 2021-2022 Chris Dragan
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -18,7 +18,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 else
 	SRC_URI="https://github.com/kos-lang/kos/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~arm64 ~amd64 ~ppc64 ~x86"
+	KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~s390 ~x86"
 	S="${WORKDIR}/kos-${PV}"
 fi
 
