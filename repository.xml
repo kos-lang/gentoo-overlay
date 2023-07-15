@@ -6,7 +6,7 @@
     <description lang="en">The interpreter for the Kos Programming Language.</description>
     <homepage>https://github.com/kos-lang/kos</homepage>
     <owner>
-		<email>chris@chris.dragan.name</email>
+		<email>chris@dragan.dev</email>
 		<name>Chris Dragan</name>
     </owner>
     <source type="git">https://github.com/kos-lang/gentoo-overlay.git</source>
