@@ -56,5 +56,5 @@ src_test() {
 }
 
 src_install() {
-	kos_make destdir="${ED}/usr" install
+	kos_make destdir="${D}/usr" install
 }
