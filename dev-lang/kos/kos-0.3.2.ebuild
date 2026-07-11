@@ -43,7 +43,7 @@ kos_make() {
 }
 
 src_compile() {
-	kos_make
+	kos_make build
 }
 
 src_test() {
